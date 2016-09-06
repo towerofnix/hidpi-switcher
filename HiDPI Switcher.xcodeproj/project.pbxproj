@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46515E2E1D7F05F60086F321 /* HiDPIApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 46515E2D1D7F05F60086F321 /* HiDPIApp.icns */; };
 		46D70EC41D7E4D2000C1F2A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D70EC31D7E4D2000C1F2A1 /* AppDelegate.swift */; };
 		46D70EC61D7E4D2000C1F2A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D70EC51D7E4D2000C1F2A1 /* ViewController.swift */; };
 		46D70EC81D7E4D2000C1F2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D70EC71D7E4D2000C1F2A1 /* Assets.xcassets */; };
 		46D70ECB1D7E4D2000C1F2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D70EC91D7E4D2000C1F2A1 /* Main.storyboard */; };
-		46D70ED31D7ED0D600C1F2A1 /* HiDMIApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 46D70ED21D7ED0D600C1F2A1 /* HiDMIApp.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46515E2D1D7F05F60086F321 /* HiDPIApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = HiDPIApp.icns; sourceTree = "<group>"; };
 		46D70EC01D7E4D2000C1F2A1 /* HiDPI Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HiDPI Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D70EC31D7E4D2000C1F2A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D70EC51D7E4D2000C1F2A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		46D70EC71D7E4D2000C1F2A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D70ECA1D7E4D2000C1F2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46D70ECC1D7E4D2000C1F2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46D70ED21D7ED0D600C1F2A1 /* HiDMIApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = HiDMIApp.icns; path = ../../HiDMIApp.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 		46D70EC21D7E4D2000C1F2A1 /* HiDPI Switcher */ = {
 			isa = PBXGroup;
 			children = (
-				46D70ED21D7ED0D600C1F2A1 /* HiDMIApp.icns */,
+				46515E2D1D7F05F60086F321 /* HiDPIApp.icns */,
 				46D70EC31D7E4D2000C1F2A1 /* AppDelegate.swift */,
 				46D70EC51D7E4D2000C1F2A1 /* ViewController.swift */,
 				46D70EC71D7E4D2000C1F2A1 /* Assets.xcassets */,
@@ -123,8 +123,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				46D70EC81D7E4D2000C1F2A1 /* Assets.xcassets in Resources */,
+				46515E2E1D7F05F60086F321 /* HiDPIApp.icns in Resources */,
 				46D70ECB1D7E4D2000C1F2A1 /* Main.storyboard in Resources */,
-				46D70ED31D7ED0D600C1F2A1 /* HiDMIApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +279,7 @@
 				46D70ED11D7E4D2000C1F2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
