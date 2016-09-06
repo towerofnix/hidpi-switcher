@@ -1,6 +1,6 @@
 # HiDPI Switcher
 
-![Magic!](site/magic.png)
+![Magic!](site/magic-dark.png)
 
 Retina for your non-Retina Mac. Kind of..
 
